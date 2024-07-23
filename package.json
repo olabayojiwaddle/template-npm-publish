@@ -1,0 +1,43 @@
+{
+    "name": "",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/index.js",
+    "type": "module",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build:dev": "rollup -c --environment NODE_ENV:development",
+        "build": "rollup -c --environment NODE_ENV:production"
+    },
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "keywords": [
+        "react",
+        "typescript",
+        "react",
+        "hooks"
+    ],
+    "author": "olabayoji oladepo",
+    "license": "MIT",
+    "bugs": {
+        "url": ""
+    },
+    "homepage": "",
+    "peerDependencies": {
+        "react": "^18.3.1"
+    },
+    "devDependencies": {
+        "@rollup/plugin-terser": "^0.4.4",
+        "@rollup/plugin-typescript": "^11.1.6",
+        "@types/react": "^18.3.3",
+        "rollup": "^4.19.0",
+        "tslib": "^2.6.3",
+        "typescript": "^5.5.4"
+    }
+}
